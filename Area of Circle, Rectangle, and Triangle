@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+//area of circle
+//area of rectangle
+//area of triangle
+
+int main() {
+    float radius;
+    printf("enter radius");
+    scanf("%f", &radius);
+    printf("area is %f, 3.14 * radius * radius");
+
+    float l, b;
+    printf("enter l * b");
+    scanf("%f %f", &l, &b);
+    printf("area is %f, l * b");
+    
+    float base, height, area;
+    printf("enter base : ");
+    scanf("%f", &base);
+
+    printf("enter height : ");
+    scanf("%f", &height);
+
+    area = 0.5 * base * height;
+    printf("Area of triangle %.2f", area);
+    return 0;
+}
