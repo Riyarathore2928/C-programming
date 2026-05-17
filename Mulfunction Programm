@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int add(int a, int b);
+int subtract(int a, int b);
+int multiply(int a, int b);
+
+int main() {
+    printf("Add : %d\n", add(10 , 5));
+    printf("Subtract : %d\n", subtract( 10,5));
+    printf("Multiply : %d\n",multiply(10, 5));
+    return 0;
+}
+int add(int a, int b) {
+    return a + b;
+}
+int subtract(int a, int b) {
+    return a - b;
+}
+int multiply(int a, int b) {
+    return a * b;
+}
