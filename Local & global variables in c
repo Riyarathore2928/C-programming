@@ -1,0 +1,20 @@
+#include<stdio.h>
+int p, q = 10, r = 20;
+
+void add();
+void mul();
+
+int main() {
+    mul();
+    add();
+    return 0;
+}
+void add() {
+    int a = 5, b = 10,c;
+    c = a + b;
+    printf("addition is = %d \n", c);
+}
+void mul() {
+    p = q * r;
+    printf("multiply is = %d \n", p);
+}
